@@ -60,8 +60,8 @@ pipeline {
                         sh """
                             cat > .env <<EOF
 MYSQL_ROOT_PASSWORD=${MYSQL_ROOT_PASS}
-MYSQL_DATABASE=final_dit312
-MYSQL_USER=final_user
+MYSQL_DATABASE=movies_db
+MYSQL_USER=movies_user
 MYSQL_PASSWORD=${MYSQL_PASS}
 MYSQL_PORT=3306
 PHPMYADMIN_PORT=8888
