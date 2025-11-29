@@ -44,7 +44,7 @@ export default function Page() {
   return (
     <main className="container">
       <header className="header">
-        <h1 className="title">Movies</h1>
+        <h1 className="title">Thant Sin Linn 6610301 Dit312-Final Project</h1>
         <p className="subtitle">Browse movie reviews from our collection</p>
       </header>
 
